@@ -33,3 +33,4 @@ clean:
 	rm -f extract.sh
 	rm -rf $(DATADIR)
 	rm -rf $(TARGET)
+	rm -rf $(TARGET).uniq
