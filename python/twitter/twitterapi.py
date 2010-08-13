@@ -7,6 +7,16 @@ import simplejson
 import urlparse
 
 class Twitter(object):
+	""" Twitter API class
+
+	Existing python Twitter libraries are not fully compatible with Twitter API.
+	So I'd like to write simple Twitter API python library for my use-cases.
+
+	Twitter API Documentation
+	http://apiwiki.twitter.com/Twitter-API-Documentation
+	http://dev.twitter.com
+	"""
+
 	def __init__(self,
 			username=None,
 			password=None):
@@ -63,7 +73,29 @@ class Twitter(object):
 		base_url = 'http://api.twitter.com/1/users/lookup.json'
 		url = base_url + '?' + urllib.urlencode(kwargs)
 		return self._fetchUrl(url)
-		
+
+	def usersSearch(self, **kwargs):
+		""" GET users/search
+
+		Runs a search for users similar to Find People button on Twitter.com.
+		The results returned by people search on Twitter.com are the same as those
+		returned by this API request.
+
+		Only the first 1000 matches are available.
+
+		Requires Authentication: true
+
+		Parameters:
+			Required:
+				q - The search query to run against people search
+			Optional
+				per_page
+				page
+				include_entitles
+		"""
+		base_url = 'http://api.twitter.com/1/users/search.json'
+		url = base_url + '?' + urllib.urlencode(kwargs)
+		return self._fetchUrl(url)
 
 	''' Favorite Methods '''
 	def favorites(self, **kwargs):
@@ -82,13 +114,14 @@ class Twitter(object):
 		url = base_url + '?' + urllib.urlencode(kwargs)
 		return self._fetchUrl(url)
 
+	''' Internal Methods '''
+
 	def _fetchUrl(self, url):		
 		opener = self._getOpener(url, username=self._username, password=self._password)
 		json = opener.open(url,None).read()
 		opener.close()
 		return simplejson.loads(json)
 
-	''' Internal Methods '''
 	def _getOpener(self, url, username=None, password=None):
 		if username and password:
 			auth_handler = urllib2.HTTPBasicAuthHandler()
@@ -100,10 +133,10 @@ class Twitter(object):
 		return opener
 		
 
-
 if __name__ == '__main__':
 	#twitter = Twitter()
-	twitter = Twitter('username', 'password')
+	#twitter = Twitter('username', 'password')
+	twitter = Twitter('hitakura', '290303')
 	#print twitter.search(q="sumo", lang='ja', locale='ja', rpp='2')
 	#print twitter.publicTimeline()
 	#print twitter.homeTimeline()
@@ -113,4 +146,5 @@ if __name__ == '__main__':
 	#print twitter.friendsIds(screen_name="hitakura")
 	#print twitter.followersIds(screen_name="hitakura")
 	#print twitter.usersShow(screen_name="lalha")
-	print twitter.usersLookup(screen_name="lalha,hitakura")
+	#print twitter.usersLookup(screen_name="lalha,hitakura")
+	print twitter.usersSearch(q="映画", per_page="1", include_entities="true")
