@@ -53,7 +53,7 @@ function get_tweets(){
 	request.end();
 }
 
-setInterval(get_tweets, 5000);
+setInterval(get_tweets, 60000);
 
 http.createServer(function(request, response){
 	var uri = url.parse(request.url).pathname;
@@ -69,13 +69,19 @@ http.createServer(function(request, response){
 			response.write(JSON.stringify([]));
 			response.end();
 
-			tweet_emitter.removeListener(listener);
+			if(listener != null && listener != undefined && typeof(listener) == 'function'){
+				try{
+					tweet_emitter.removeListener(listener);
+				}catch(err){
+					sys.puts("ERROR: " + err.description);
+				}
+			}
 		}, 10000);
 	}
 	else{
 		load_static_file(uri, response);
 	}
-}).listen(8080);
+}).listen(80);
 
 
-sys.puts("Server running at http://localhost:8080/");
+sys.puts("Server running at http://localhost:80/");
