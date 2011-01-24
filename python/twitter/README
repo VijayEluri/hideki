@@ -1,6 +1,0 @@
-README
-
-Existing python Twitter libraries are not fully compatible with Twitter API. So I'd like to write simple Twitter API python library for my use-cases.
-
-Twitter API Documentation
-http://apiwiki.twitter.com/Twitter-API-Documentation
