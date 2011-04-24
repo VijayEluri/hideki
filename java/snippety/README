@@ -1,0 +1,46 @@
+#
+# README for snippety (code test)
+#
+# Name: Hideki Itakrua
+# Email: hideki.itakura@gmail.com
+#
+
+1. Files and directories
+	/src		- source code directory
+		/codetest	- package for this project
+			/Snippetty.java			- the code to generate snippet from document and query
+			/SentenceFeatures.java 	- sentence information to rank sentences in document in case of multiple match
+			/Demo.java				- demo code (stdin -> document, command parameters -> query)
+	/test-src	- junit test source code directory
+		/codetest
+			/SnippetyTest.java		- Unit Test
+	/data		- data directory for demo
+		/sushizon_yelp.txt	- document for demo (Sushi Zone is top ranked search result for the query "sushi bar / san francisco CA")
+	Makefile	- makefile for compile, junit test, and run demo
+	README		- this file
+	
+2. Compile, demo, and unit test
+	a) for JUnit, please update JUNIT_CLASSPATH variable in Makefile
+	b) "make jar"  - compile and create jar file
+	c) "make demo" - demonstrate summary functionarity with using demo document and demo query
+		demo document - "Sushi Zone" which is top ranked yelp result for the query "sushi bar / san francisco, ca"
+		demo query  - "sushi bar"
+	d) "make test-compile" - compile unit test codes
+	e) "make test" - execute unit tests
+	
+3. Definition of snippet (summary)
+   a) Sentences is better than a list of keywords for snippet.
+   b) Snippet contains one or two sentences. Or it could contain three. (My code is adjustable by modify constant variable)
+   c) Maximum length of each sentence is 100 (adjustable). If sentence is longer than 100, it is truncated by 100 with replacing "...".
+   d) Summary sentences need to contain at least one of query words.
+   e) Query words in a snippet must be highlighted.
+   f) If many sentences contains query words, most relevant sentences must be selected as summary.
+   g) Features to select relevant sentences:
+   		1. Sentence position in the document.
+   		2. Matched query word frequency.
+   		3. Completeness of query word in the sentence. Ex) Sample query, "deep dish pizza" is in a sentence.
+	h) In case that a document does not contain any query word, summary is first one or two sentences of document.
+	i) In case that query is empty, summary is first one or two sentences of document.
+	j) In case that document is empty, summary is "".
+	
+		
