@@ -15,13 +15,9 @@ class heap:
 		for i in range(parentOfLast, 0, -1):
 			self.shiftDown(i)
 
-
 	def shiftDown(self, i):
 		toShift = self.contents[i]
 		parent = i
-
-		
-
 
 def main(argv):
 	array = map(lambda x: int(x), argv)
