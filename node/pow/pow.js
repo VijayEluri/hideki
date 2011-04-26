@@ -4,8 +4,12 @@ var host = process.env.VCAP_APP_HOST || 'localhost';
 var port = process.env.VCAP_APP_PORT || 3000;
 
 var pow = function(x, n) {
-	if(n === 1){
-		return x;
+	if(n < 0){
+		return 0;
+	}
+
+	if(n === 0){
+		return 1;
 	}
 	var temp = pow(x, Math.floor(n/2));
 	if(n % 2 === 0){
@@ -24,10 +28,12 @@ http.createServer(function (req, res) {
 	var uri = urlObj.pathname;  
     if(uri === "/pow") {  
 		var query = urlObj.query;
-		var base = query.base;
-		var exponent = query.exponent;
-  		res.write('pow('+base+', '+exponent+') = ' + pow(base, exponent));
- 		res.write('<hr/>');
+		var base = parseInt(query.base);
+		var exponent = parseInt(query.exponent);
+		if(base && exponent){
+  			res.write('pow('+base+', '+exponent+') = ' + pow(base, exponent));
+ 			res.write('<hr/>');
+		}
 	}
   	res.write('<form method="get" action="/pow">');
  	res.write('<table>');
