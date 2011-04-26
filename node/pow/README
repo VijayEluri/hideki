@@ -1,0 +1,11 @@
+This is simple power function demo using Node on cloudfoundry.com
+
+appid: mathpow
+URL:   http://mathpow.cloudfoundry.com/
+
+deploy:
+	vmc push
+
+update:
+	vmc update mathpow
+
