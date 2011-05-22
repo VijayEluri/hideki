@@ -3,7 +3,7 @@
 
 import sys
 
-def bsearch2(val, list, left, right):
+def bsearch(val, list, left, right):
 	if right < left:
 		return None
 	elif right == left and val != list[left]:
@@ -16,21 +16,9 @@ def bsearch2(val, list, left, right):
 	elif val > list[half]:
 		return bsearch2(val, list, half+1, right)
 
-def bsearch(val, list):
-	if len(list) == 0:
-		return None
-	half = len(list) / 2
-	if val == list[half]:
-		return val
-	elif val < list[half]:
-		return bsearch(val, list[:half])
-	elif val > list[half]:
-		return bsearch(val, list[half+1:])
-	
 def find(target, list):
 	for i in range(len(list)):
-		#val = bsearch(target - list[i], list[i+1:]) 
-		val = bsearch2(target - list[i], list, i+1, len(list) - 1) 
+		val = bsearch(target - list[i], list, i+1, len(list) - 1) 
 		if val != None:
 			return (list[i], val)
 	return (None, None)
