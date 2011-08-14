@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B83F6E5013D3D06E00AC8D59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83F6E4F13D3D06E00AC8D59 /* UIKit.framework */; };
+		B83F6E5213D3D06E00AC8D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83F6E5113D3D06E00AC8D59 /* Foundation.framework */; };
+		B83F6E5413D3D06E00AC8D59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83F6E5313D3D06E00AC8D59 /* CoreGraphics.framework */; };
+		B83F6E5A13D3D06E00AC8D59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B83F6E5813D3D06E00AC8D59 /* InfoPlist.strings */; };
+		B83F6E5D13D3D06E00AC8D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B83F6E5C13D3D06E00AC8D59 /* main.m */; };
+		B83F6E6013D3D06E00AC8D59 /* MediaPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83F6E5F13D3D06E00AC8D59 /* MediaPlayerAppDelegate.m */; };
+		B83F6E6413D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B83F6E6313D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPhone.m */; };
+		B83F6E6713D3D06E00AC8D59 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83F6E6513D3D06E00AC8D59 /* MainWindow_iPhone.xib */; };
+		B83F6E6B13D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B83F6E6A13D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPad.m */; };
+		B83F6E6E13D3D06E00AC8D59 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83F6E6C13D3D06E00AC8D59 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B83F6E4B13D3D06E00AC8D59 /* MediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83F6E4F13D3D06E00AC8D59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B83F6E5113D3D06E00AC8D59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B83F6E5313D3D06E00AC8D59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B83F6E5713D3D06E00AC8D59 /* MediaPlayer-Info.plist */ = {isa = PBXFileReference; path = "MediaPlayer-Info.plist"; sourceTree = "<group>"; };
+		B83F6E5913D3D06E00AC8D59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B83F6E5B13D3D06E00AC8D59 /* MediaPlayer-Prefix.pch */ = {isa = PBXFileReference; path = "MediaPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		B83F6E5C13D3D06E00AC8D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B83F6E5E13D3D06E00AC8D59 /* MediaPlayerAppDelegate.h */ = {isa = PBXFileReference; path = MediaPlayerAppDelegate.h; sourceTree = "<group>"; };
+		B83F6E5F13D3D06E00AC8D59 /* MediaPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerAppDelegate.m; sourceTree = "<group>"; };
+		B83F6E6213D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = MediaPlayerAppDelegate_iPhone.h; path = iPhone/MediaPlayerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		B83F6E6313D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaPlayerAppDelegate_iPhone.m; path = iPhone/MediaPlayerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		B83F6E6613D3D06E00AC8D59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		B83F6E6913D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPad.h */ = {isa = PBXFileReference; name = MediaPlayerAppDelegate_iPad.h; path = iPad/MediaPlayerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		B83F6E6A13D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaPlayerAppDelegate_iPad.m; path = iPad/MediaPlayerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		B83F6E6D13D3D06E00AC8D59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B83F6E4813D3D06E00AC8D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83F6E5013D3D06E00AC8D59 /* UIKit.framework in Frameworks */,
+				B83F6E5213D3D06E00AC8D59 /* Foundation.framework in Frameworks */,
+				B83F6E5413D3D06E00AC8D59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B83F6E4013D3D06E00AC8D59 = {
+			isa = PBXGroup;
+			children = (
+				B83F6E5513D3D06E00AC8D59 /* MediaPlayer */,
+				B83F6E4E13D3D06E00AC8D59 /* Frameworks */,
+				B83F6E4C13D3D06E00AC8D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B83F6E4C13D3D06E00AC8D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B83F6E4B13D3D06E00AC8D59 /* MediaPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B83F6E4E13D3D06E00AC8D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83F6E4F13D3D06E00AC8D59 /* UIKit.framework */,
+				B83F6E5113D3D06E00AC8D59 /* Foundation.framework */,
+				B83F6E5313D3D06E00AC8D59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B83F6E5513D3D06E00AC8D59 /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B83F6E5E13D3D06E00AC8D59 /* MediaPlayerAppDelegate.h */,
+				B83F6E5F13D3D06E00AC8D59 /* MediaPlayerAppDelegate.m */,
+				B83F6E6113D3D06E00AC8D59 /* iPhone */,
+				B83F6E6813D3D06E00AC8D59 /* iPad */,
+				B83F6E5613D3D06E00AC8D59 /* Supporting Files */,
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		B83F6E5613D3D06E00AC8D59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83F6E5713D3D06E00AC8D59 /* MediaPlayer-Info.plist */,
+				B83F6E5813D3D06E00AC8D59 /* InfoPlist.strings */,
+				B83F6E5B13D3D06E00AC8D59 /* MediaPlayer-Prefix.pch */,
+				B83F6E5C13D3D06E00AC8D59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B83F6E6113D3D06E00AC8D59 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				B83F6E6213D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPhone.h */,
+				B83F6E6313D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPhone.m */,
+				B83F6E6513D3D06E00AC8D59 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		B83F6E6813D3D06E00AC8D59 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B83F6E6913D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPad.h */,
+				B83F6E6A13D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPad.m */,
+				B83F6E6C13D3D06E00AC8D59 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B83F6E4A13D3D06E00AC8D59 /* MediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83F6E7113D3D06E00AC8D59 /* Build configuration list for PBXNativeTarget "MediaPlayer" */;
+			buildPhases = (
+				B83F6E4713D3D06E00AC8D59 /* Sources */,
+				B83F6E4813D3D06E00AC8D59 /* Frameworks */,
+				B83F6E4913D3D06E00AC8D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayer;
+			productName = MediaPlayer;
+			productReference = B83F6E4B13D3D06E00AC8D59 /* MediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B83F6E4213D3D06E00AC8D59 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B83F6E4513D3D06E00AC8D59 /* Build configuration list for PBXProject "MediaPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B83F6E4013D3D06E00AC8D59;
+			productRefGroup = B83F6E4C13D3D06E00AC8D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83F6E4A13D3D06E00AC8D59 /* MediaPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B83F6E4913D3D06E00AC8D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83F6E5A13D3D06E00AC8D59 /* InfoPlist.strings in Resources */,
+				B83F6E6713D3D06E00AC8D59 /* MainWindow_iPhone.xib in Resources */,
+				B83F6E6E13D3D06E00AC8D59 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B83F6E4713D3D06E00AC8D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83F6E5D13D3D06E00AC8D59 /* main.m in Sources */,
+				B83F6E6013D3D06E00AC8D59 /* MediaPlayerAppDelegate.m in Sources */,
+				B83F6E6413D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPhone.m in Sources */,
+				B83F6E6B13D3D06E00AC8D59 /* MediaPlayerAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B83F6E5813D3D06E00AC8D59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83F6E5913D3D06E00AC8D59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B83F6E6513D3D06E00AC8D59 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83F6E6613D3D06E00AC8D59 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B83F6E6C13D3D06E00AC8D59 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83F6E6D13D3D06E00AC8D59 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B83F6E6F13D3D06E00AC8D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B83F6E7013D3D06E00AC8D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B83F6E7213D3D06E00AC8D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayer/MediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayer/MediaPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B83F6E7313D3D06E00AC8D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayer/MediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayer/MediaPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B83F6E4513D3D06E00AC8D59 /* Build configuration list for PBXProject "MediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83F6E6F13D3D06E00AC8D59 /* Debug */,
+				B83F6E7013D3D06E00AC8D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83F6E7113D3D06E00AC8D59 /* Build configuration list for PBXNativeTarget "MediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83F6E7213D3D06E00AC8D59 /* Debug */,
+				B83F6E7313D3D06E00AC8D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B83F6E4213D3D06E00AC8D59 /* Project object */;
+}

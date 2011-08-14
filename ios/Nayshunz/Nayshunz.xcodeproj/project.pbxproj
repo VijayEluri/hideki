@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8A88E5A13DCAE41008342A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A88E5913DCAE41008342A3 /* UIKit.framework */; };
+		B8A88E5C13DCAE41008342A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A88E5B13DCAE41008342A3 /* Foundation.framework */; };
+		B8A88E5E13DCAE41008342A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A88E5D13DCAE41008342A3 /* CoreGraphics.framework */; };
+		B8A88E6413DCAE41008342A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8A88E6213DCAE41008342A3 /* InfoPlist.strings */; };
+		B8A88E6713DCAE41008342A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A88E6613DCAE41008342A3 /* main.m */; };
+		B8A88E6A13DCAE41008342A3 /* NayshunzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A88E6913DCAE41008342A3 /* NayshunzAppDelegate.m */; };
+		B8A88E6D13DCAE41008342A3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A88E6B13DCAE41008342A3 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8A88E5513DCAE41008342A3 /* Nayshunz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nayshunz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A88E5913DCAE41008342A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8A88E5B13DCAE41008342A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8A88E5D13DCAE41008342A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8A88E6113DCAE41008342A3 /* Nayshunz-Info.plist */ = {isa = PBXFileReference; path = "Nayshunz-Info.plist"; sourceTree = "<group>"; };
+		B8A88E6313DCAE41008342A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8A88E6513DCAE41008342A3 /* Nayshunz-Prefix.pch */ = {isa = PBXFileReference; path = "Nayshunz-Prefix.pch"; sourceTree = "<group>"; };
+		B8A88E6613DCAE41008342A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8A88E6813DCAE41008342A3 /* NayshunzAppDelegate.h */ = {isa = PBXFileReference; path = NayshunzAppDelegate.h; sourceTree = "<group>"; };
+		B8A88E6913DCAE41008342A3 /* NayshunzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NayshunzAppDelegate.m; sourceTree = "<group>"; };
+		B8A88E6C13DCAE41008342A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8A88E5213DCAE40008342A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A88E5A13DCAE41008342A3 /* UIKit.framework in Frameworks */,
+				B8A88E5C13DCAE41008342A3 /* Foundation.framework in Frameworks */,
+				B8A88E5E13DCAE41008342A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8A88E4A13DCAE40008342A3 = {
+			isa = PBXGroup;
+			children = (
+				B8A88E5F13DCAE41008342A3 /* Nayshunz */,
+				B8A88E5813DCAE41008342A3 /* Frameworks */,
+				B8A88E5613DCAE41008342A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8A88E5613DCAE41008342A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A88E5513DCAE41008342A3 /* Nayshunz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8A88E5813DCAE41008342A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A88E5913DCAE41008342A3 /* UIKit.framework */,
+				B8A88E5B13DCAE41008342A3 /* Foundation.framework */,
+				B8A88E5D13DCAE41008342A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8A88E5F13DCAE41008342A3 /* Nayshunz */ = {
+			isa = PBXGroup;
+			children = (
+				B8A88E6813DCAE41008342A3 /* NayshunzAppDelegate.h */,
+				B8A88E6913DCAE41008342A3 /* NayshunzAppDelegate.m */,
+				B8A88E6B13DCAE41008342A3 /* MainWindow.xib */,
+				B8A88E6013DCAE41008342A3 /* Supporting Files */,
+			);
+			path = Nayshunz;
+			sourceTree = "<group>";
+		};
+		B8A88E6013DCAE41008342A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A88E6113DCAE41008342A3 /* Nayshunz-Info.plist */,
+				B8A88E6213DCAE41008342A3 /* InfoPlist.strings */,
+				B8A88E6513DCAE41008342A3 /* Nayshunz-Prefix.pch */,
+				B8A88E6613DCAE41008342A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8A88E5413DCAE40008342A3 /* Nayshunz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A88E7013DCAE41008342A3 /* Build configuration list for PBXNativeTarget "Nayshunz" */;
+			buildPhases = (
+				B8A88E5113DCAE40008342A3 /* Sources */,
+				B8A88E5213DCAE40008342A3 /* Frameworks */,
+				B8A88E5313DCAE40008342A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nayshunz;
+			productName = Nayshunz;
+			productReference = B8A88E5513DCAE41008342A3 /* Nayshunz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8A88E4C13DCAE40008342A3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B8A88E4F13DCAE40008342A3 /* Build configuration list for PBXProject "Nayshunz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8A88E4A13DCAE40008342A3;
+			productRefGroup = B8A88E5613DCAE41008342A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8A88E5413DCAE40008342A3 /* Nayshunz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8A88E5313DCAE40008342A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A88E6413DCAE41008342A3 /* InfoPlist.strings in Resources */,
+				B8A88E6D13DCAE41008342A3 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8A88E5113DCAE40008342A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A88E6713DCAE41008342A3 /* main.m in Sources */,
+				B8A88E6A13DCAE41008342A3 /* NayshunzAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8A88E6213DCAE41008342A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A88E6313DCAE41008342A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8A88E6B13DCAE41008342A3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A88E6C13DCAE41008342A3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8A88E6E13DCAE41008342A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8A88E6F13DCAE41008342A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B8A88E7113DCAE41008342A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nayshunz/Nayshunz-Prefix.pch";
+				INFOPLIST_FILE = "Nayshunz/Nayshunz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8A88E7213DCAE41008342A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nayshunz/Nayshunz-Prefix.pch";
+				INFOPLIST_FILE = "Nayshunz/Nayshunz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8A88E4F13DCAE40008342A3 /* Build configuration list for PBXProject "Nayshunz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A88E6E13DCAE41008342A3 /* Debug */,
+				B8A88E6F13DCAE41008342A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A88E7013DCAE41008342A3 /* Build configuration list for PBXNativeTarget "Nayshunz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A88E7113DCAE41008342A3 /* Debug */,
+				B8A88E7213DCAE41008342A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8A88E4C13DCAE40008342A3 /* Project object */;
+}

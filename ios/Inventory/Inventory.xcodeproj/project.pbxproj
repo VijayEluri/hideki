@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B80C0AE013DD19D60062515D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C0ADF13DD19D60062515D /* UIKit.framework */; };
+		B80C0AE213DD19D60062515D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C0AE113DD19D60062515D /* Foundation.framework */; };
+		B80C0AE413DD19D60062515D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C0AE313DD19D60062515D /* CoreGraphics.framework */; };
+		B80C0AE613DD19D60062515D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C0AE513DD19D60062515D /* CoreData.framework */; };
+		B80C0AEC13DD19D60062515D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B80C0AEA13DD19D60062515D /* InfoPlist.strings */; };
+		B80C0AEF13DD19D60062515D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C0AEE13DD19D60062515D /* main.m */; };
+		B80C0AF213DD19D60062515D /* InventoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C0AF113DD19D60062515D /* InventoryAppDelegate.m */; };
+		B80C0AF513DD19D60062515D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80C0AF313DD19D60062515D /* MainWindow.xib */; };
+		B80C0AF813DD19D60062515D /* Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B80C0AF613DD19D60062515D /* Inventory.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B80C0ADB13DD19D60062515D /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80C0ADF13DD19D60062515D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B80C0AE113DD19D60062515D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B80C0AE313DD19D60062515D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B80C0AE513DD19D60062515D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B80C0AE913DD19D60062515D /* Inventory-Info.plist */ = {isa = PBXFileReference; path = "Inventory-Info.plist"; sourceTree = "<group>"; };
+		B80C0AEB13DD19D60062515D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B80C0AED13DD19D60062515D /* Inventory-Prefix.pch */ = {isa = PBXFileReference; path = "Inventory-Prefix.pch"; sourceTree = "<group>"; };
+		B80C0AEE13DD19D60062515D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B80C0AF013DD19D60062515D /* InventoryAppDelegate.h */ = {isa = PBXFileReference; path = InventoryAppDelegate.h; sourceTree = "<group>"; };
+		B80C0AF113DD19D60062515D /* InventoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InventoryAppDelegate.m; sourceTree = "<group>"; };
+		B80C0AF413DD19D60062515D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B80C0AF713DD19D60062515D /* Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inventory.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80C0AD813DD19D60062515D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80C0AE013DD19D60062515D /* UIKit.framework in Frameworks */,
+				B80C0AE213DD19D60062515D /* Foundation.framework in Frameworks */,
+				B80C0AE413DD19D60062515D /* CoreGraphics.framework in Frameworks */,
+				B80C0AE613DD19D60062515D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80C0AD013DD19D60062515D = {
+			isa = PBXGroup;
+			children = (
+				B80C0AE713DD19D60062515D /* Inventory */,
+				B80C0ADE13DD19D60062515D /* Frameworks */,
+				B80C0ADC13DD19D60062515D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B80C0ADC13DD19D60062515D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80C0ADB13DD19D60062515D /* Inventory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80C0ADE13DD19D60062515D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80C0ADF13DD19D60062515D /* UIKit.framework */,
+				B80C0AE113DD19D60062515D /* Foundation.framework */,
+				B80C0AE313DD19D60062515D /* CoreGraphics.framework */,
+				B80C0AE513DD19D60062515D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B80C0AE713DD19D60062515D /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				B80C0AF013DD19D60062515D /* InventoryAppDelegate.h */,
+				B80C0AF113DD19D60062515D /* InventoryAppDelegate.m */,
+				B80C0AF313DD19D60062515D /* MainWindow.xib */,
+				B80C0AF613DD19D60062515D /* Inventory.xcdatamodeld */,
+				B80C0AE813DD19D60062515D /* Supporting Files */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		B80C0AE813DD19D60062515D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80C0AE913DD19D60062515D /* Inventory-Info.plist */,
+				B80C0AEA13DD19D60062515D /* InfoPlist.strings */,
+				B80C0AED13DD19D60062515D /* Inventory-Prefix.pch */,
+				B80C0AEE13DD19D60062515D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80C0ADA13DD19D60062515D /* Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80C0AFB13DD19D60062515D /* Build configuration list for PBXNativeTarget "Inventory" */;
+			buildPhases = (
+				B80C0AD713DD19D60062515D /* Sources */,
+				B80C0AD813DD19D60062515D /* Frameworks */,
+				B80C0AD913DD19D60062515D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inventory;
+			productName = Inventory;
+			productReference = B80C0ADB13DD19D60062515D /* Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80C0AD213DD19D60062515D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B80C0AD513DD19D60062515D /* Build configuration list for PBXProject "Inventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B80C0AD013DD19D60062515D;
+			productRefGroup = B80C0ADC13DD19D60062515D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80C0ADA13DD19D60062515D /* Inventory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80C0AD913DD19D60062515D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80C0AEC13DD19D60062515D /* InfoPlist.strings in Resources */,
+				B80C0AF513DD19D60062515D /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80C0AD713DD19D60062515D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80C0AEF13DD19D60062515D /* main.m in Sources */,
+				B80C0AF213DD19D60062515D /* InventoryAppDelegate.m in Sources */,
+				B80C0AF813DD19D60062515D /* Inventory.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B80C0AEA13DD19D60062515D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80C0AEB13DD19D60062515D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B80C0AF313DD19D60062515D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80C0AF413DD19D60062515D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80C0AF913DD19D60062515D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B80C0AFA13DD19D60062515D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B80C0AFC13DD19D60062515D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventory/Inventory-Prefix.pch";
+				INFOPLIST_FILE = "Inventory/Inventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B80C0AFD13DD19D60062515D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventory/Inventory-Prefix.pch";
+				INFOPLIST_FILE = "Inventory/Inventory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80C0AD513DD19D60062515D /* Build configuration list for PBXProject "Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80C0AF913DD19D60062515D /* Debug */,
+				B80C0AFA13DD19D60062515D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80C0AFB13DD19D60062515D /* Build configuration list for PBXNativeTarget "Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80C0AFC13DD19D60062515D /* Debug */,
+				B80C0AFD13DD19D60062515D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B80C0AF613DD19D60062515D /* Inventory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B80C0AF713DD19D60062515D /* Inventory.xcdatamodel */,
+			);
+			currentVersion = B80C0AF713DD19D60062515D /* Inventory.xcdatamodel */;
+			path = Inventory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B80C0AD213DD19D60062515D /* Project object */;
+}

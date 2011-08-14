@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B83395BC13E80B4400877FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83395BB13E80B4400877FB2 /* UIKit.framework */; };
+		B83395BE13E80B4400877FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83395BD13E80B4400877FB2 /* Foundation.framework */; };
+		B83395C013E80B4400877FB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83395BF13E80B4400877FB2 /* CoreGraphics.framework */; };
+		B83395C613E80B4400877FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B83395C413E80B4400877FB2 /* InfoPlist.strings */; };
+		B83395C913E80B4400877FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B83395C813E80B4400877FB2 /* main.m */; };
+		B83395CC13E80B4400877FB2 /* MailToParserHidekiItakuraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83395CB13E80B4400877FB2 /* MailToParserHidekiItakuraAppDelegate.m */; };
+		B83395CF13E80B4400877FB2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83395CD13E80B4400877FB2 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B83395B713E80B4400877FB2 /* MailToParserHidekiItakura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailToParserHidekiItakura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83395BB13E80B4400877FB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B83395BD13E80B4400877FB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B83395BF13E80B4400877FB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B83395C313E80B4400877FB2 /* MailToParserHidekiItakura-Info.plist */ = {isa = PBXFileReference; path = "MailToParserHidekiItakura-Info.plist"; sourceTree = "<group>"; };
+		B83395C513E80B4400877FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B83395C713E80B4400877FB2 /* MailToParserHidekiItakura-Prefix.pch */ = {isa = PBXFileReference; path = "MailToParserHidekiItakura-Prefix.pch"; sourceTree = "<group>"; };
+		B83395C813E80B4400877FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B83395CA13E80B4400877FB2 /* MailToParserHidekiItakuraAppDelegate.h */ = {isa = PBXFileReference; path = MailToParserHidekiItakuraAppDelegate.h; sourceTree = "<group>"; };
+		B83395CB13E80B4400877FB2 /* MailToParserHidekiItakuraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailToParserHidekiItakuraAppDelegate.m; sourceTree = "<group>"; };
+		B83395CE13E80B4400877FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B83395B413E80B4400877FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83395BC13E80B4400877FB2 /* UIKit.framework in Frameworks */,
+				B83395BE13E80B4400877FB2 /* Foundation.framework in Frameworks */,
+				B83395C013E80B4400877FB2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B83395AC13E80B4400877FB2 = {
+			isa = PBXGroup;
+			children = (
+				B83395C113E80B4400877FB2 /* MailToParserHidekiItakura */,
+				B83395BA13E80B4400877FB2 /* Frameworks */,
+				B83395B813E80B4400877FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B83395B813E80B4400877FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B83395B713E80B4400877FB2 /* MailToParserHidekiItakura.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B83395BA13E80B4400877FB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83395BB13E80B4400877FB2 /* UIKit.framework */,
+				B83395BD13E80B4400877FB2 /* Foundation.framework */,
+				B83395BF13E80B4400877FB2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B83395C113E80B4400877FB2 /* MailToParserHidekiItakura */ = {
+			isa = PBXGroup;
+			children = (
+				B83395CA13E80B4400877FB2 /* MailToParserHidekiItakuraAppDelegate.h */,
+				B83395CB13E80B4400877FB2 /* MailToParserHidekiItakuraAppDelegate.m */,
+				B83395CD13E80B4400877FB2 /* MainWindow.xib */,
+				B83395C213E80B4400877FB2 /* Supporting Files */,
+			);
+			path = MailToParserHidekiItakura;
+			sourceTree = "<group>";
+		};
+		B83395C213E80B4400877FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83395C313E80B4400877FB2 /* MailToParserHidekiItakura-Info.plist */,
+				B83395C413E80B4400877FB2 /* InfoPlist.strings */,
+				B83395C713E80B4400877FB2 /* MailToParserHidekiItakura-Prefix.pch */,
+				B83395C813E80B4400877FB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B83395B613E80B4400877FB2 /* MailToParserHidekiItakura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83395D213E80B4400877FB2 /* Build configuration list for PBXNativeTarget "MailToParserHidekiItakura" */;
+			buildPhases = (
+				B83395B313E80B4400877FB2 /* Sources */,
+				B83395B413E80B4400877FB2 /* Frameworks */,
+				B83395B513E80B4400877FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailToParserHidekiItakura;
+			productName = MailToParserHidekiItakura;
+			productReference = B83395B713E80B4400877FB2 /* MailToParserHidekiItakura.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B83395AE13E80B4400877FB2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B83395B113E80B4400877FB2 /* Build configuration list for PBXProject "MailToParserHidekiItakura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B83395AC13E80B4400877FB2;
+			productRefGroup = B83395B813E80B4400877FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83395B613E80B4400877FB2 /* MailToParserHidekiItakura */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B83395B513E80B4400877FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83395C613E80B4400877FB2 /* InfoPlist.strings in Resources */,
+				B83395CF13E80B4400877FB2 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B83395B313E80B4400877FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83395C913E80B4400877FB2 /* main.m in Sources */,
+				B83395CC13E80B4400877FB2 /* MailToParserHidekiItakuraAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B83395C413E80B4400877FB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83395C513E80B4400877FB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B83395CD13E80B4400877FB2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83395CE13E80B4400877FB2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B83395D013E80B4400877FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B83395D113E80B4400877FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B83395D313E80B4400877FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailToParserHidekiItakura/MailToParserHidekiItakura-Prefix.pch";
+				INFOPLIST_FILE = "MailToParserHidekiItakura/MailToParserHidekiItakura-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B83395D413E80B4400877FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailToParserHidekiItakura/MailToParserHidekiItakura-Prefix.pch";
+				INFOPLIST_FILE = "MailToParserHidekiItakura/MailToParserHidekiItakura-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B83395B113E80B4400877FB2 /* Build configuration list for PBXProject "MailToParserHidekiItakura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83395D013E80B4400877FB2 /* Debug */,
+				B83395D113E80B4400877FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83395D213E80B4400877FB2 /* Build configuration list for PBXNativeTarget "MailToParserHidekiItakura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83395D313E80B4400877FB2 /* Debug */,
+				B83395D413E80B4400877FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B83395AE13E80B4400877FB2 /* Project object */;
+}
