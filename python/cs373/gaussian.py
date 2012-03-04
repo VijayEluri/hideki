@@ -1,6 +1,10 @@
-import math
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-def gaussian(x, mu, sigma2):
-	return 1.0 / math.sqrt(2.0 * math.pi * sigma2) * math.exp(-0.5 * math.pow(x - mu, 2) / sigma2)
+from math import *
 
-print gaussian(8., 10., 4.)
+def f(mu, sigma2, x):
+	return 1.0 / sqrt(2. * pi * sigma2) * exp(-0.5 * pow(x - mu, 2) / sigma2)
+
+print f(10., 4., 8.)
+print f(10., 4., 10.)
