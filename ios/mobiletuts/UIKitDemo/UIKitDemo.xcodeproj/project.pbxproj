@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B811A9A015D39F39002BD359 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811A99F15D39F39002BD359 /* UIKit.framework */; };
+		B811A9A215D39F39002BD359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811A9A115D39F39002BD359 /* Foundation.framework */; };
+		B811A9A415D39F39002BD359 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811A9A315D39F39002BD359 /* CoreGraphics.framework */; };
+		B811A9AA15D39F39002BD359 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B811A9A815D39F39002BD359 /* InfoPlist.strings */; };
+		B811A9AC15D39F39002BD359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B811A9AB15D39F39002BD359 /* main.m */; };
+		B811A9B015D39F39002BD359 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B811A9AF15D39F39002BD359 /* MTAppDelegate.m */; };
+		B811A9B315D39F39002BD359 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B811A9B215D39F39002BD359 /* MTViewController.m */; };
+		B811A9B615D39F39002BD359 /* MTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B811A9B415D39F39002BD359 /* MTViewController.xib */; };
+		B811A9C015D39F68002BD359 /* red_rocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B811A9BD15D39F68002BD359 /* red_rocks.jpg */; };
+		B811A9C115D39F68002BD359 /* tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B811A9BE15D39F68002BD359 /* tree.jpg */; };
+		B811A9C215D39F68002BD359 /* truck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B811A9BF15D39F68002BD359 /* truck.jpg */; };
+		B811A9CD15D3A37D002BD359 /* segcontrol_sel-uns.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9C415D3A37D002BD359 /* segcontrol_sel-uns.png */; };
+		B811A9CE15D3A37D002BD359 /* segcontrol_uns-sel.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9C515D3A37D002BD359 /* segcontrol_uns-sel.png */; };
+		B811A9CF15D3A37D002BD359 /* segcontrol_uns-uns.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9C615D3A37D002BD359 /* segcontrol_uns-uns.png */; };
+		B811A9D015D3A37D002BD359 /* segcontrol_uns.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9C715D3A37D002BD359 /* segcontrol_uns.png */; };
+		B811A9D115D3A37D002BD359 /* segcontrol_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9C815D3A37D002BD359 /* segcontrol_sel.png */; };
+		B811A9D215D3A37D002BD359 /* navBar.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9C915D3A37D002BD359 /* navBar.png */; };
+		B811A9D315D3A37D002BD359 /* navBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9CA15D3A37D002BD359 /* navBar@2x.png */; };
+		B811A9D415D3A37D002BD359 /* BG-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9CB15D3A37D002BD359 /* BG-pattern.png */; };
+		B811A9D515D3A37D002BD359 /* BG-pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B811A9CC15D3A37D002BD359 /* BG-pattern@2x.png */; };
+		B811A9D715D3A3D0002BD359 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811A9D615D3A3D0002BD359 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B811A99B15D39F39002BD359 /* UIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B811A99F15D39F39002BD359 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B811A9A115D39F39002BD359 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B811A9A315D39F39002BD359 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B811A9A715D39F39002BD359 /* UIKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitDemo-Info.plist"; sourceTree = "<group>"; };
+		B811A9A915D39F39002BD359 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B811A9AB15D39F39002BD359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B811A9AD15D39F39002BD359 /* UIKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B811A9AE15D39F39002BD359 /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		B811A9AF15D39F39002BD359 /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		B811A9B115D39F39002BD359 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
+		B811A9B215D39F39002BD359 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
+		B811A9B515D39F39002BD359 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MTViewController.xib; sourceTree = "<group>"; };
+		B811A9BD15D39F68002BD359 /* red_rocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_rocks.jpg; sourceTree = "<group>"; };
+		B811A9BE15D39F68002BD359 /* tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tree.jpg; sourceTree = "<group>"; };
+		B811A9BF15D39F68002BD359 /* truck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = truck.jpg; sourceTree = "<group>"; };
+		B811A9C415D3A37D002BD359 /* segcontrol_sel-uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segcontrol_sel-uns.png"; sourceTree = "<group>"; };
+		B811A9C515D3A37D002BD359 /* segcontrol_uns-sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segcontrol_uns-sel.png"; sourceTree = "<group>"; };
+		B811A9C615D3A37D002BD359 /* segcontrol_uns-uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segcontrol_uns-uns.png"; sourceTree = "<group>"; };
+		B811A9C715D3A37D002BD359 /* segcontrol_uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segcontrol_uns.png; sourceTree = "<group>"; };
+		B811A9C815D3A37D002BD359 /* segcontrol_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segcontrol_sel.png; sourceTree = "<group>"; };
+		B811A9C915D3A37D002BD359 /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar.png; sourceTree = "<group>"; };
+		B811A9CA15D3A37D002BD359 /* navBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar@2x.png"; sourceTree = "<group>"; };
+		B811A9CB15D3A37D002BD359 /* BG-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-pattern.png"; sourceTree = "<group>"; };
+		B811A9CC15D3A37D002BD359 /* BG-pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-pattern@2x.png"; sourceTree = "<group>"; };
+		B811A9D615D3A3D0002BD359 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B811A99815D39F39002BD359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B811A9D715D3A3D0002BD359 /* QuartzCore.framework in Frameworks */,
+				B811A9A015D39F39002BD359 /* UIKit.framework in Frameworks */,
+				B811A9A215D39F39002BD359 /* Foundation.framework in Frameworks */,
+				B811A9A415D39F39002BD359 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B811A99015D39F39002BD359 = {
+			isa = PBXGroup;
+			children = (
+				B811A9A515D39F39002BD359 /* UIKitDemo */,
+				B811A99E15D39F39002BD359 /* Frameworks */,
+				B811A99C15D39F39002BD359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B811A99C15D39F39002BD359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B811A99B15D39F39002BD359 /* UIKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B811A99E15D39F39002BD359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B811A9D615D3A3D0002BD359 /* QuartzCore.framework */,
+				B811A99F15D39F39002BD359 /* UIKit.framework */,
+				B811A9A115D39F39002BD359 /* Foundation.framework */,
+				B811A9A315D39F39002BD359 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B811A9A515D39F39002BD359 /* UIKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B811A9C315D3A342002BD359 /* UI Graphics */,
+				B811A9BC15D39F5B002BD359 /* Images */,
+				B811A9AE15D39F39002BD359 /* MTAppDelegate.h */,
+				B811A9AF15D39F39002BD359 /* MTAppDelegate.m */,
+				B811A9B115D39F39002BD359 /* MTViewController.h */,
+				B811A9B215D39F39002BD359 /* MTViewController.m */,
+				B811A9B415D39F39002BD359 /* MTViewController.xib */,
+				B811A9A615D39F39002BD359 /* Supporting Files */,
+			);
+			path = UIKitDemo;
+			sourceTree = "<group>";
+		};
+		B811A9A615D39F39002BD359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B811A9A715D39F39002BD359 /* UIKitDemo-Info.plist */,
+				B811A9A815D39F39002BD359 /* InfoPlist.strings */,
+				B811A9AB15D39F39002BD359 /* main.m */,
+				B811A9AD15D39F39002BD359 /* UIKitDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B811A9BC15D39F5B002BD359 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B811A9BD15D39F68002BD359 /* red_rocks.jpg */,
+				B811A9BE15D39F68002BD359 /* tree.jpg */,
+				B811A9BF15D39F68002BD359 /* truck.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B811A9C315D3A342002BD359 /* UI Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B811A9C415D3A37D002BD359 /* segcontrol_sel-uns.png */,
+				B811A9C515D3A37D002BD359 /* segcontrol_uns-sel.png */,
+				B811A9C615D3A37D002BD359 /* segcontrol_uns-uns.png */,
+				B811A9C715D3A37D002BD359 /* segcontrol_uns.png */,
+				B811A9C815D3A37D002BD359 /* segcontrol_sel.png */,
+				B811A9C915D3A37D002BD359 /* navBar.png */,
+				B811A9CA15D3A37D002BD359 /* navBar@2x.png */,
+				B811A9CB15D3A37D002BD359 /* BG-pattern.png */,
+				B811A9CC15D3A37D002BD359 /* BG-pattern@2x.png */,
+			);
+			name = "UI Graphics";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B811A99A15D39F39002BD359 /* UIKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B811A9B915D39F39002BD359 /* Build configuration list for PBXNativeTarget "UIKitDemo" */;
+			buildPhases = (
+				B811A99715D39F39002BD359 /* Sources */,
+				B811A99815D39F39002BD359 /* Frameworks */,
+				B811A99915D39F39002BD359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitDemo;
+			productName = UIKitDemo;
+			productReference = B811A99B15D39F39002BD359 /* UIKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B811A99215D39F39002BD359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hideki Itakura";
+			};
+			buildConfigurationList = B811A99515D39F39002BD359 /* Build configuration list for PBXProject "UIKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B811A99015D39F39002BD359;
+			productRefGroup = B811A99C15D39F39002BD359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B811A99A15D39F39002BD359 /* UIKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B811A99915D39F39002BD359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B811A9AA15D39F39002BD359 /* InfoPlist.strings in Resources */,
+				B811A9B615D39F39002BD359 /* MTViewController.xib in Resources */,
+				B811A9C015D39F68002BD359 /* red_rocks.jpg in Resources */,
+				B811A9C115D39F68002BD359 /* tree.jpg in Resources */,
+				B811A9C215D39F68002BD359 /* truck.jpg in Resources */,
+				B811A9CD15D3A37D002BD359 /* segcontrol_sel-uns.png in Resources */,
+				B811A9CE15D3A37D002BD359 /* segcontrol_uns-sel.png in Resources */,
+				B811A9CF15D3A37D002BD359 /* segcontrol_uns-uns.png in Resources */,
+				B811A9D015D3A37D002BD359 /* segcontrol_uns.png in Resources */,
+				B811A9D115D3A37D002BD359 /* segcontrol_sel.png in Resources */,
+				B811A9D215D3A37D002BD359 /* navBar.png in Resources */,
+				B811A9D315D3A37D002BD359 /* navBar@2x.png in Resources */,
+				B811A9D415D3A37D002BD359 /* BG-pattern.png in Resources */,
+				B811A9D515D3A37D002BD359 /* BG-pattern@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B811A99715D39F39002BD359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B811A9AC15D39F39002BD359 /* main.m in Sources */,
+				B811A9B015D39F39002BD359 /* MTAppDelegate.m in Sources */,
+				B811A9B315D39F39002BD359 /* MTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B811A9A815D39F39002BD359 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B811A9A915D39F39002BD359 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B811A9B415D39F39002BD359 /* MTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B811A9B515D39F39002BD359 /* en */,
+			);
+			name = MTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B811A9B715D39F39002BD359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B811A9B815D39F39002BD359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B811A9BA15D39F39002BD359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitDemo/UIKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIKitDemo/UIKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B811A9BB15D39F39002BD359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitDemo/UIKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIKitDemo/UIKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B811A99515D39F39002BD359 /* Build configuration list for PBXProject "UIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B811A9B715D39F39002BD359 /* Debug */,
+				B811A9B815D39F39002BD359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B811A9B915D39F39002BD359 /* Build configuration list for PBXNativeTarget "UIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B811A9BA15D39F39002BD359 /* Debug */,
+				B811A9BB15D39F39002BD359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B811A99215D39F39002BD359 /* Project object */;
+}
