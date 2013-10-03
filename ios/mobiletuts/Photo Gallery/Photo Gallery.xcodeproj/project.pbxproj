@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B851B75F17F2CEE900D73BD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B851B75E17F2CEE900D73BD1 /* Default-568h@2x.png */; };
 		B8CE27EE15D4EE6300B79507 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE27ED15D4EE6300B79507 /* UIKit.framework */; };
 		B8CE27F015D4EE6300B79507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE27EF15D4EE6300B79507 /* Foundation.framework */; };
 		B8CE27F215D4EE6300B79507 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE27F115D4EE6300B79507 /* CoreGraphics.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B851B75E17F2CEE900D73BD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B8CE27E915D4EE6300B79507 /* Photo Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CE27ED15D4EE6300B79507 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8CE27EF15D4EE6300B79507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +94,7 @@
 		B8CE27DE15D4EE6200B79507 = {
 			isa = PBXGroup;
 			children = (
+				B851B75E17F2CEE900D73BD1 /* Default-568h@2x.png */,
 				B8CE27F315D4EE6300B79507 /* Photo Gallery */,
 				B8CE281415D4EE6300B79507 /* Photo GalleryTests */,
 				B8CE27EC15D4EE6300B79507 /* Frameworks */,
@@ -252,6 +255,7 @@
 				B8CE282E15D4F45B00B79507 /* iMac.jpg in Resources */,
 				B8CE282F15D4F45B00B79507 /* iPhone.jpg in Resources */,
 				B8CE283015D4F45B00B79507 /* iPad.jpg in Resources */,
+				B851B75F17F2CEE900D73BD1 /* Default-568h@2x.png in Resources */,
 				B8CE283115D4F45B00B79507 /* MacBook Air.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
