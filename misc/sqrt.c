@@ -1,3 +1,6 @@
+/**
+ * square root by divide conqure
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

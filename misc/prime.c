@@ -1,3 +1,7 @@
+/**
+ * Find prime numbers
+ */
+
 #include <stdio.h>
 #include <math.h>
 
